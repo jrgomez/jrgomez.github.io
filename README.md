@@ -26,6 +26,16 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
+```
+// Creating groups with thread identifiers
+
+let content = UNMutableNotificationContent()
+content.title = "Notifications Team"
+content.body = "WWDC After Party"
+content.threadIdentifier = "notifications-team-chat"
+
+```
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
